@@ -20,6 +20,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.network.PacketBuffer;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.ContainerType;
@@ -31,6 +32,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.cheesemod.procedures.CheeseShifterProcedureProcedure;
+import net.mcreator.cheesemod.block.BerryAcidBlock;
 import net.mcreator.cheesemod.CheesemodModElements;
 import net.mcreator.cheesemod.CheesemodMod;
 
@@ -137,8 +139,16 @@ public class CheeseShifterGUIGui extends CheesemodModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 44, 22) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(Items.MILK_BUCKET, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 58) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(BerryAcidBlock.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 116, 40) {
 				@Override
