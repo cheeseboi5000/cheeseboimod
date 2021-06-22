@@ -61,6 +61,58 @@
           "x": 241,
           "y": 76
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:burnTime>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:burnTime>",
+          "x": 233,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Burn Time",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Burn Time",
+          "x": 233,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:furnaceSpeed>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:furnaceSpeed>",
+          "x": 231,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Furnace Speed",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Furnace Speed",
+          "x": 229,
+          "y": 95
+        }
       }
     ],
     "onTick": {
