@@ -27,7 +27,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "Items.MILK_BUCKET"
           },
           "id": 0,
           "disableStackInteraction": false,
@@ -41,7 +41,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:BerryAcid"
           },
           "id": 1,
           "disableStackInteraction": false,
