@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "cake",
+	"textures": {
+		"0": "custom/cheese_wheel",
+		"1": "custom/cheese_wheel_internal",
+		"particle": "custom/cheese_wheel"
+	},
+	"elements": [
+		{
+			"from": [13, 0, 1],
+			"to": [14, 8, 15],
+			"faces": {
+				"north": {"uv": [2, 4, 3, 12], "texture": "#0"},
+				"east": {"uv": [2, 4, 14, 12], "texture": "#0"},
+				"south": {"uv": [13, 5, 14, 13], "texture": "#0"},
+				"west": {"uv": [1, 2, 15, 10], "texture": "#1"},
+				"up": {"uv": [13, 1, 14, 15], "texture": "#0"},
+				"down": {"uv": [13, 1, 14, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14, 0, 2],
+			"to": [15, 8, 14],
+			"faces": {
+				"north": {"uv": [8, 5, 9, 13], "texture": "#0"},
+				"east": {"uv": [2, 4, 14, 12], "texture": "#0"},
+				"south": {"uv": [9, 3, 10, 11], "texture": "#0"},
+				"west": {"uv": [12, 15, 13, 16], "texture": "#0"},
+				"up": {"uv": [2, 2, 3, 14], "texture": "#0"},
+				"down": {"uv": [3, 2, 4, 14], "texture": "#0"}
+			}
+		}
+	]
+}

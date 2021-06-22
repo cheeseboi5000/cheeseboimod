@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cheesemod:blocks/cheese_maker_top",
+    "up": "cheesemod:blocks/cheese_maker_top",
+    "north": "cheesemod:blocks/cheese_maker_front_with_milk",
+    "east": "cheesemod:blocks/cheese_maker_side",
+    "south": "cheesemod:blocks/cheese_maker_side",
+    "west": "cheesemod:blocks/cheese_maker_side",
+    "particle": "cheesemod:blocks/cheese_maker_top"
+  }
+}

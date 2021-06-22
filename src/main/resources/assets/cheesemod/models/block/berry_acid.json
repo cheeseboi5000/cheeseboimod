@@ -1,0 +1,10 @@
+{
+  "parent": "cheesemod:custom/berry_acid",
+  "textures": {
+    "all": "cheesemod:blocks/texture",
+    "particle": "cheesemod:blocks/texture",
+    "0": "cheesemod:blocks/texture",
+    "1": "cheesemod:blocks/texture1",
+    "2": "cheesemod:blocks/texture2"
+  }
+}

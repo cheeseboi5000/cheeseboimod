@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cheesemod:block/cheese_shifter_on"
+    },
+    "facing=east": {
+      "model": "cheesemod:block/cheese_shifter_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cheesemod:block/cheese_shifter_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cheesemod:block/cheese_shifter_on",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cheesewheel",
+        "1": "cheese_wheel"
+      },
+      "name": "default"
+    }
+  }
+}

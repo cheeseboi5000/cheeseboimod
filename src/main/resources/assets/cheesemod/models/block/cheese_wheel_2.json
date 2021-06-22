@@ -1,0 +1,9 @@
+{
+  "parent": "cheesemod:custom/cheese_wheel_2",
+  "textures": {
+    "all": "cheesemod:blocks/cheesewheel",
+    "particle": "cheesemod:blocks/cheesewheel",
+    "0": "cheesemod:blocks/cheesewheel",
+    "1": "cheesemod:blocks/cheese_wheel"
+  }
+}

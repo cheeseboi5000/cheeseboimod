@@ -1,0 +1,13 @@
+{
+  "group": "berry_acid",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+    "item": "cheesemod:berry_acid",
+    "count": 1
+  }
+}
