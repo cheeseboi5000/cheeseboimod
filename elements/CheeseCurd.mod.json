@@ -3,20 +3,18 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "cheese_slice",
+    "texture": "cheese-curd",
     "customModelName": "Normal",
-    "name": "Chedar Cheese Slice",
-    "rarity": "RARE",
-    "specialInfo": [
-      "cheese is good"
-    ],
+    "name": "Cheese Curd",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 8,
-    "nutritionalValue": 2,
-    "saturation": 0.8,
-    "eatingSpeed": 32,
+    "nutritionalValue": 0,
+    "saturation": 0.2,
+    "eatingSpeed": 10,
     "resultItem": {
       "value": ""
     },
